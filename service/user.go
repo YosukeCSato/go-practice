@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 
-	"../repository"
+	"github.com/YosukeCSato/go-practice/repository"
 )
 
 type UserService interface {
