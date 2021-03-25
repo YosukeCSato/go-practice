@@ -10,6 +10,7 @@ import (
 func returnFunc() func() {
 	return func() {
 		fmt.Println("yes!!!")
+		fmt.Println("yes")
 	}
 }
 
